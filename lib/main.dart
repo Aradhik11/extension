@@ -1,4 +1,3 @@
-import 'package:exten_sion/landing_page.dart';
 import 'package:exten_sion/web.dart';
 import 'package:flutter/material.dart';
 
