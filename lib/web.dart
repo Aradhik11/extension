@@ -5,7 +5,7 @@ class WebView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final currentWidth = MediaQuery.of(context).size.width;
+    // final currentWidth = MediaQuery.of(context).size.width;
     return Scaffold(
       backgroundColor: const Color(0xffF9F3FF),
       body: SingleChildScrollView(
@@ -80,7 +80,7 @@ class WebView extends StatelessWidget {
             const SizedBox(
               height: 124,
             ),
-            Text(currentWidth.toString(), style: TextStyle(fontSize: 70),),
+            // Text(currentWidth.toString(), style: TextStyle(fontSize: 70),),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
