@@ -14,7 +14,7 @@ class TabletView extends StatelessWidget {
               children: [
                 Expanded(
                     child: Image.asset(
-                  "assets/images/bg.png",
+                  "assets/bg.png",
                   width: double.infinity,
                   fit: BoxFit.fitWidth,
                 )),
@@ -26,7 +26,7 @@ class TabletView extends StatelessWidget {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Image.asset("assets/images/logo.png"),
+                            Image.asset("assets/logo.png"),
                             OutlinedButton(
                                 onPressed: () {},
                                 child: const Text(
@@ -70,7 +70,7 @@ class TabletView extends StatelessWidget {
                       const SizedBox(
                         height: 91,
                       ),
-                      Image.asset("assets/images/tablet-chrome.png"),
+                      Image.asset("assets/tablet-chrome.png"),
                     ],
                   ),
                 )
@@ -88,7 +88,7 @@ class TabletView extends StatelessWidget {
                 ),
                 Stack(
                   children: [
-                    Image.asset("assets/images/tablet-rectangle.png"),
+                    Image.asset("assets/tablet-rectangle.png"),
                     const Positioned(
                         top: 10,
                         bottom: 0,
@@ -108,11 +108,11 @@ class TabletView extends StatelessWidget {
             const SizedBox(
               height: 40,
             ),
-            Image.asset("assets/images/tablet-frame1.png"),
+            Image.asset("assets/tablet-frame1.png"),
             const SizedBox(
               height: 32,
             ),
-            Image.asset("assets/images/tablet-frame2.png"),
+            Image.asset("assets/tablet-frame2.png"),
             const SizedBox(
               height: 125,
             ),
@@ -124,7 +124,7 @@ class TabletView extends StatelessWidget {
                         TextStyle(fontSize: 48, fontWeight: FontWeight.w700)),
                 Stack(
                   children: [
-                    Image.asset("assets/images/rectangle.png"),
+                    Image.asset("assets/rectangle.png"),
                     const Positioned(
                         top: 10,
                         bottom: 0,
@@ -146,7 +146,7 @@ class TabletView extends StatelessWidget {
             const SizedBox(
               height: 48,
             ),
-            Image.asset("assets/images/tablet-frame3.png"),
+            Image.asset("assets/tablet-frame3.png"),
             const SizedBox(
               height: 30.2,
             ),

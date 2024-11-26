@@ -16,7 +16,7 @@ class MobileView extends StatelessWidget {
               children: [
                 Expanded(
                     child: Image.asset(
-                  "assets/images/bg.png",
+                  "assets/bg.png",
                   width: double.infinity,
                   fit: BoxFit.fitWidth,
                 )),
@@ -28,7 +28,7 @@ class MobileView extends StatelessWidget {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Image.asset("assets/images/logo.png"),
+                            Image.asset("assets/logo.png"),
                             OutlinedButton(
                                 onPressed: () {},
                                 child: const Text(
@@ -97,7 +97,7 @@ class MobileView extends StatelessWidget {
                             fontSize: 24, fontWeight: FontWeight.w700)),
                     Stack(
                       children: [
-                        Image.asset("assets/images/mobile-rectangle.png"),
+                        Image.asset("assets/mobile-rectangle.png"),
                         const Positioned(
                             top: 5,
                             bottom: 0,
@@ -119,11 +119,11 @@ class MobileView extends StatelessWidget {
             const SizedBox(
               height: 40,
             ),
-            Image.asset("assets/images/mobile-frame1.png"),
+            Image.asset("assets/mobile-frame1.png"),
             const SizedBox(
               height: 16,
             ),
-            Image.asset("assets/images/mobile-frame2.png"),
+            Image.asset("assets/mobile-frame2.png"),
             const SizedBox(
               height: 29,
             ),
@@ -138,7 +138,7 @@ class MobileView extends StatelessWidget {
                             fontSize: 24, fontWeight: FontWeight.w700)),
                     Stack(
                       children: [
-                        Image.asset("assets/images/mobile-rectangle.png"),
+                        Image.asset("assets/mobile-rectangle.png"),
                         const Positioned(
                             top: 5,
                             bottom: 0,
@@ -162,7 +162,7 @@ class MobileView extends StatelessWidget {
             const SizedBox(
               height: 32,
             ),
-            Image.asset("assets/images/mobile-frame3.png"),
+            Image.asset("assets/mobile-frame3.png"),
             const SizedBox(
               height: 10.2,
             ),

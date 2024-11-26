@@ -15,7 +15,7 @@ class WebView extends StatelessWidget {
               children: [
                 Expanded(
                     child: Image.asset(
-                  "assets/images/bg.png",
+                  "assets/bg.png",
                   width: double.infinity,
                   fit: BoxFit.fitWidth,
                 )),
@@ -27,7 +27,7 @@ class WebView extends StatelessWidget {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Image.asset("assets/images/logo.png"),
+                            Image.asset("assets/logo.png"),
                             OutlinedButton(
                                 onPressed: () {},
                                 child: const Text(
@@ -71,7 +71,7 @@ class WebView extends StatelessWidget {
                       const SizedBox(
                         height: 91,
                       ),
-                      Image.asset("assets/images/deskstop.png"),
+                      Image.asset("assets/deskstop.png"),
                     ],
                   ),
                 )
@@ -90,7 +90,7 @@ class WebView extends StatelessWidget {
                 ),
                 Stack(
                   children: [
-                    Image.asset("assets/images/rectangle.png"),
+                    Image.asset("assets/rectangle.png"),
                     const Positioned(
                         top: 10,
                         bottom: 0,
@@ -113,11 +113,11 @@ class WebView extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Image.asset("assets/images/frame1.png"),
+                Image.asset("assets/frame1.png"),
                 const SizedBox(
                   width: 25,
                 ),
-                Image.asset("assets/images/frame2.png")
+                Image.asset("assets/frame2.png")
               ],
             ),
             const SizedBox(
@@ -126,11 +126,11 @@ class WebView extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Image.asset("assets/images/frame3.png"),
+                Image.asset("assets/frame3.png"),
                 const SizedBox(
                   width: 25,
                 ),
-                Image.asset("assets/images/frame4.png")
+                Image.asset("assets/frame4.png")
               ],
             ),
             const SizedBox(
@@ -144,7 +144,7 @@ class WebView extends StatelessWidget {
                         TextStyle(fontSize: 48, fontWeight: FontWeight.w700)),
                 Stack(
                   children: [
-                    Image.asset("assets/images/rectangle.png"),
+                    Image.asset("assets/rectangle.png"),
                     const Positioned(
                         top: 10,
                         bottom: 0,
@@ -166,7 +166,7 @@ class WebView extends StatelessWidget {
             const SizedBox(
               height: 48,
             ),
-            Image.asset("assets/images/footer.png"),
+            Image.asset("assets/footer.png"),
             const SizedBox(
               height: 50.2,
             ),
