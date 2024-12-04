@@ -12,12 +12,11 @@ class TabletView extends StatelessWidget {
           children: [
             Stack(
               children: [
-                Expanded(
-                    child: Image.asset(
+                Image.asset(
                   "assets/bg.png",
                   width: double.infinity,
                   fit: BoxFit.fitWidth,
-                )),
+                ),
                 Positioned(
                   child: Column(
                     children: [

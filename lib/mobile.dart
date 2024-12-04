@@ -78,10 +78,10 @@ class MobileView extends StatelessWidget {
             const SizedBox(
               height: 62,
             ),
-            Text(
-              currentWidth.toString(),
-              style: TextStyle(fontSize: 54, fontWeight: FontWeight.w700),
-            ),
+            // Text(
+            //   currentWidth.toString(),
+            //   style: const TextStyle(fontSize: 54, fontWeight: FontWeight.w700),
+            // ),
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -92,7 +92,7 @@ class MobileView extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text("With",
+                    const Text("With",
                         style: TextStyle(
                             fontSize: 24, fontWeight: FontWeight.w700)),
                     Stack(
