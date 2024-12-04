@@ -1,5 +1,6 @@
 import 'package:exten_sion/landing_page.dart';
 import 'package:exten_sion/mobile.dart';
+import 'package:exten_sion/mobile_phone.dart';
 import 'package:exten_sion/web.dart';
 import 'package:flutter/material.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const LandingPage(),
+      home: const MobilePhoneView(),
     );
   }
 }

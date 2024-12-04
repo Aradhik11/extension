@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class MobileView extends StatelessWidget {
-  const MobileView({super.key});
+class MobilePhoneView extends StatelessWidget {
+  const MobilePhoneView({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -23,16 +23,16 @@ class MobileView extends StatelessWidget {
                   child: Column(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 40),
+                        padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 10),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Image.asset("assets/logo.png"),
+                            Image.asset("assets/logo.png", height:30, width: 30,),
                             OutlinedButton(
                                 onPressed: () {},
                                 child: const Text(
                                   "Get Started",
-                                  style: TextStyle(color: Colors.white),
+                                  style: TextStyle(color: Colors.white, fontSize: 10),
                                 ))
                           ],
                         ),
@@ -43,15 +43,15 @@ class MobileView extends StatelessWidget {
                       const Text(
                         "Analyze Website UI in\n One Click",
                         textAlign: TextAlign.center,
-                        style: TextStyle(fontSize: 32, color: Colors.white),
+                        style: TextStyle(fontSize: 12, color: Colors.white),
                       ),
                       const SizedBox(
                         height: 22,
                       ),
                       const Text(
-                          "Simplify your website analysis. With just a single click\n, get a comprehensive report on usability, accessibility,\n and visual appeal",
+                          "Simplify your website analysis. With just a single click,\n get a comprehensive report on usability, accessibility,\n and visual appeal",
                           textAlign: TextAlign.center,
-                          style: TextStyle(fontSize: 16, color: Colors.white)),
+                          style: TextStyle(fontSize: 8, color: Colors.white)),
                       const SizedBox(
                         height: 44,
                       ),
@@ -61,10 +61,10 @@ class MobileView extends StatelessWidget {
                             borderRadius: BorderRadius.circular(90)),
                         child: const Padding(
                           padding: EdgeInsets.symmetric(
-                              horizontal: 20, vertical: 12),
+                              horizontal: 12, vertical: 7),
                           child: Text(
                             "Download Now",
-                            style: TextStyle(color: Colors.white, fontSize: 20),
+                            style: TextStyle(color: Colors.white, fontSize: 10),
                           ),
                         ),
                       ),
@@ -117,11 +117,17 @@ class MobileView extends StatelessWidget {
             const SizedBox(
               height: 40,
             ),
-            Image.asset("assets/mobile-frame1.png"),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 10),
+              child: Image.asset("assets/mobile-frame1.png"),
+            ),
             const SizedBox(
               height: 16,
             ),
-            Image.asset("assets/mobile-frame2.png"),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 10),
+              child: Image.asset("assets/mobile-frame2.png"),
+            ),
             const SizedBox(
               height: 29,
             ),
@@ -160,7 +166,10 @@ class MobileView extends StatelessWidget {
             const SizedBox(
               height: 32,
             ),
-            Image.asset("assets/mobile-frame3.png"),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 10),
+              child: Image.asset("assets/mobile-frame3.png"),
+            ),
             const SizedBox(
               height: 10.2,
             ),
