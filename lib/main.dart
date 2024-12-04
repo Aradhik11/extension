@@ -3,7 +3,6 @@ import 'package:exten_sion/mobile.dart';
 import 'package:exten_sion/web.dart';
 import 'package:flutter/material.dart';
 
-
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
@@ -26,4 +25,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
