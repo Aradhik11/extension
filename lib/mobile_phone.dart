@@ -74,6 +74,7 @@ class MobilePhoneView extends StatelessWidget {
                   )
                 ],
               ),
+              // Text(currentWidth.toString(), style: TextStyle(fontSize: 43),),
               const SizedBox(
                 height: 62,
               ),
